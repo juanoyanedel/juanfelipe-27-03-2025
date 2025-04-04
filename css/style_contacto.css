@@ -1,0 +1,86 @@
+
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+body {
+  background-color: #525252;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header .logo img {
+  max-width: 100px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  background-color: #333;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+.banner {
+  background-color: #5a5a5a;
+  padding: 20px;
+  text-align: center;
+}
+
+body form button {
+        padding: 10px 20px;
+        background-color: #4f2020;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+}
+body form button:hover {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  body form button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #525252;
+  }
+  
+  body form button:hover {
+    background-color: #2b2b2b;
+    color: white;
+  }
+  
+  
+footer {
+    background-color: #2f2f2f;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.redes-sociales img {
+    width: 30px;
+    margin: 0 10px;
+}
